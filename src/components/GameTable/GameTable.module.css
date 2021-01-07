@@ -1,0 +1,14 @@
+.table {
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 302px;
+}
+
+.row {
+    border-bottom: 1px solid #000;
+}
+
+.row:last-child {
+    border-bottom: none;
+}

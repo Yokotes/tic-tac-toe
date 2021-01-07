@@ -1,0 +1,15 @@
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #000;
+    cursor: pointer;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 3.5rem;
+}
+
+.cell:focus {
+    outline: none;
+}

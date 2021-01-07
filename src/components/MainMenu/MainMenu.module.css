@@ -1,0 +1,25 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+
+.btns button{
+    margin-right: 30px;
+}
+
+.btns button:last-child {
+    margin-right: 0;
+}

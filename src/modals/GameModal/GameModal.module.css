@@ -1,0 +1,43 @@
+.modal {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgb(175, 175, 175),
+                0 -0.5px 1px rgb(175, 175, 175);
+    padding: 20px 30px;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform .5s, opacity .5s;
+}
+
+.showed {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: sans-serif;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid rgb(122, 122, 122);
+    font-size: 1.1rem;
+}
+
+.label {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color:rgb(122, 122, 122);
+    margin-right: 10px;
+}
